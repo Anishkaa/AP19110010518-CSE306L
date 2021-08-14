@@ -1,0 +1,25 @@
+123: number
+main : identifier
+(
+)
+{ 
+int : keyword 
+a : identifier
+! 
+5: number
+; 
+char : keyword 
+b : identifier
+!
+"
+hello : identifier
+"
+;comment did not close
+ 1 - 123
+ 2 - main
+ 3 - int
+ 4 - a
+ 5 - 5
+ 6- char
+ 7 -b 
+ 8 - hello
