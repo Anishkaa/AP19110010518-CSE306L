@@ -193,8 +193,10 @@ main ()
     }				//end of while
   if (state == 11)
     fprintf (fp2, "comment did not close");
-
+   
   // To print symbol table remove these comments
+  fprintf(fp2, "\n\n\nIdentifiers in the given text file are as follows\n");
+    fprintf(fp2, "S.No - Identifier\n");
   for (int i = 0; strcmp (symb_tab[i], "") && i < 20; ++i)
     fprintf (fp2, "\n identifier %d - %s", i + 1, symb_tab[i]);
   return 0;
