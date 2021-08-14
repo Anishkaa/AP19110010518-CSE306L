@@ -1,0 +1,6 @@
+123 main()
+{
+int a=5;
+char b="hello";
+/*fgh + 89
+}
